@@ -42,7 +42,7 @@ const config = {
     {
       type: "application",
       name: "@app/micro0008",
-    },/*
+    },
     {
       type: "route",
       path: "home",
@@ -57,7 +57,7 @@ const config = {
         },
       ],
       default: false,
-    },
+    },/*
     {
       type: "route",
       path: "about",

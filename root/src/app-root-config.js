@@ -35,10 +35,10 @@ const customError = "<h1>Oops! About isn't working right now</h1>";
 const config = {
   mode: "hash",
   routes: [
-    /*{
+    {
       type: "application",
       name: "@app/nav",
-    },*/
+    },
     {
       type: "application",
       name: "@app/micro0008",

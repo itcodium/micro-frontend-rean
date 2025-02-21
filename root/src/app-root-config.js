@@ -57,20 +57,11 @@ const config = {
         },
       ],
       default: false,
-    },/*
+    },
     {
-      type: "route",
-      path: "about",
-      routes: [
-        {
-          type: "application",
-          name: "@app/about",
-          loader: customLoader,
-          error: customError,
-        },
-      ],
-      default: false,
-    },*/
+      type: "application",
+      name: "@app/micro0008",
+    },
     {
       type: "route",
       default: true,

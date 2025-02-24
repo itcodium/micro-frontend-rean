@@ -43,6 +43,7 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "single-spa": "^6.0.3",
     "single-spa-react": "^6.0.2"
   }
 }

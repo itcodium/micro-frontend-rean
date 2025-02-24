@@ -4,7 +4,7 @@ const singleSpaDefaults = require("webpack-config-single-spa-react");
 module.exports = (webpackConfigEnv, argv) => {
   const defaultConfig = singleSpaDefaults({
     orgName: "app",
-    projectName: "micro0008",
+    projectName: "mf-react",
     webpackConfigEnv,
     argv,
     outputSystemJS: true,

@@ -1,5 +1,5 @@
 {
-  "name": "@app/micro0008",
+  "name": "@app/mf-react",
   "scripts": {
     "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone",

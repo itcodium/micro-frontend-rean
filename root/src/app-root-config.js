@@ -6,13 +6,13 @@ import {
 } from "single-spa-layout";
 
 import microfrontendLayout from "./microfrontend-layout.html";
-//import customLoader from "./custom-loader.html";
+import customLoader from "./custom-loader.html";
 import customError from "./custom-error.html";
  
 const data = {
-  /*loaders: {
+  loaders: {
     customLoader,
-  },*/
+  },
   props: {
     user: { fname: "Jane", lname: "John" },
   },

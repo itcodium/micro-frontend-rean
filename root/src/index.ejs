@@ -53,10 +53,11 @@
       {
         "imports": {
           "@app/root-config": "//localhost:9000/app-root-config.js",
-          "@app/mf-react": "//localhost:8080/app-mf-react.js",
           "@app/nav": "//localhost:9001/main.js",
+          "@app/mf-react": "//localhost:8080/app-mf-react.js",
           "@app/home": "//localhost:9002/main.js",
           "@app/about": "//localhost:9003/main.js"
+          
         }
       }
     </script>
@@ -82,9 +83,9 @@
   <noscript>
     You need to enable JavaScript to run this app.
   </noscript>
+  <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
   <script>
     System.import('@app/root-config');
   </script>
-  <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
 </body>
 </html>

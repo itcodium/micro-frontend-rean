@@ -12,3 +12,8 @@ Installation
 You only need to install the layout engine into your root config (not in any other application).
 
     npm install --save single-spa-layout
+
+
+# 2025-02-25 probar este repo
+https://www.syncfusion.com/blogs/post/build-micro-frontends-with-single-spa
+https://github.com/Thamodi/single-spa-demo

@@ -4,7 +4,7 @@ import { singleSpaPropsSubject } from '../single-spa/single-spa-props';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-home',
   standalone: true,
   imports: [RouterOutlet, CommonModule],
   templateUrl: './app.component.html',

@@ -26,7 +26,7 @@ const lifecycles = singleSpaAngular({
       ],
     });
   },
-  template: '<app-root />',
+  template: '<app-home />',
   NgZone,
 });
 

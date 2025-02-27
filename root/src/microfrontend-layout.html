@@ -1,11 +1,11 @@
-<single-spa-router mode="hash">
+<single-spa-router mode="hash">    
   <nav>
-    <application name="@app/mf-react-nav"></application>
+    <application name="@app/nav"></application>
   </nav>
   <main>
     <redirect from="/" to="/home"></redirect>
     <route path="home">
-      <application name="@app/home" loader="customLoader" props="user"></application>
+      <application name="@app/home" loader="customLoader" props="user"></application> 
     </route>
     <!-- http://localhost:9000/#/react -->
     <route path="react">
@@ -13,6 +13,9 @@
     </route>
     <route path="about">
       <application name="@app/about" loader="customLoader" error="customError"></application>
+    </route>
+    <route path="angular">
+      <application name="@app/angular"></application>
     </route>
     <route default>
       404 Not found
